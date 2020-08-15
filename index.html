@@ -2,35 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Article preview component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
-
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
-
-  Michelle Appleton
-  28 Jun 2020
-
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container main-container">
+    <div class="row main-row">
+      <div class="col-md-8">
+        <div class="row card-row">
+          <div class="col-md-4 product-image-section">
+            <img src="./images/drawers.jpg" alt="">
+          </div>
+          <div class="col-md-8 content-styling">
+            <div class="content-section">
+              <div class="bold-header">Shift the overall look and feel by adding these wondeful touches to furniture in your home</div>
+              <p class="description">
+                Ever been in a room and felt like something was missing ? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.
+              </p>
+            </div>
+            <div class="share-section">
+              <div class="img-section">
+                <img src="./images/avatar-michelle.jpg" class="responsive-img" alt="">
+              </div>
+              <div class="usr-details">
+                <p class="user-name">Michelle Appeton</p>
+                <p class="user-date">28 Jun 2020</p>
+              </div>
+              <div class="share-icon-section">
+                <div class="image-container"><img src="./images/icon-share.svg" class="responsive-img" alt=""></div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
